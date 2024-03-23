@@ -15,8 +15,8 @@ export default function Hero() {
                  First Fruits Christian Counseling Center
         we are committed to
           providing biblical-based counseling that integrates the timeless
-          wisdom of God's Word with professional counseling expertise that
-          allows God's counsel to pour through us into our clients. We believe
+          wisdom of Gods Word with professional counseling expertise that
+          allows Gods counsel to pour through us into our clients. We believe
           Jesus Christ is The Prince of Peace and a Wonderful Counselor. He is
           our great physician, and it is through Him and in Him that we find our
           true mental, emotional, and spiritual healing.
