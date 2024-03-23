@@ -15,7 +15,7 @@ const config: Config = {
       },
       colors: {
         'nBlue': '#24234a',
-        // 'green': '#83a16d',
+        'dBlue': '#0f283d',
         // 'beige': '#eddab3',
         // 'grey': '#645F5B',
         // 'black': '#000000',
