@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function NavBar() {
     return (
-      <div className="relative z-20 md:bg-white/65 top-0 flex flex-col p-8 md:p-0 md:flex-row md:justify-around justify-between items-center h-36 text-xl sticky w-screen pb-2">
+      <div className="relative z-20 md:bg-white/65 top-0 flex flex-col p-8 md:p-0 md:flex-row md:justify-around justify-between items-center h-36 text-xl md:sticky w-screen pb-2">
         <button className="py-1 hidden md:block">Home</button>
         <button className="py-1 hidden md:block">Services</button>
         <Image
