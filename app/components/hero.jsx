@@ -10,7 +10,7 @@ export default function Hero() {
         className="md:relative hidden md:block"
       ></Image>
       <div className="flex flex-col items-center justify-start">
-        <p className="md:absolute md:flex md:flex-col md:justify-start text-center md:top-16 md:m-20 md:p-3 md:rounded md:bg-dBlue/80  md:w-1/2 md:min-h-86 md:h-auto md:flex md:items-center md:text-xl md:text-white  text-nBlue">
+        <p className="md:absolute md:flex md:flex-col md:justify-center text-center md:top-44 md:m-20 md:p-3 md:rounded md:bg-dBlue/80  md:w-1/2 md:min-h-86 md:h-auto md:flex md:items-center md:text-xl md:text-white  text-nBlue">
          At
                  First Fruits Christian Counseling Center
         we are committed to
