@@ -25,7 +25,7 @@ const Formula = () => {
         </header>
       </div>
 
-      <table id="costs-table" className="table numbers" cellspacing="0">
+      <table id="costs-table" className="table numbers" cellSpacing="0">
         <thead>
           <tr>
             <th colspan="3">Total Cost of Attendance 2024-2025</th>
@@ -95,7 +95,7 @@ const Formula = () => {
         </tbody>
       </table>
 
-      <table id="family-table" cellspacing="0">
+      <table id="family-table" cellSpacing="0">
         <thead>
           <tr>
             <th colspan="2">Student Aid Index</th>
@@ -132,7 +132,7 @@ const Formula = () => {
       <h2>Scholarship and Grant Options</h2>
       <p>Scholarships and Grants are considered "Gift" aid - no repayment is needed.</p>
       <section className="content numbers">
-        <table id="scholarships-table" className="table numbers" cellspacing="0">
+        <table id="scholarships-table" className="table numbers" cellSpacing="0">
           <thead>
             <tr>
               <th colspan="2">Scholarships</th>
@@ -178,7 +178,7 @@ const Formula = () => {
       </section>
 
       <aside className="aside">
-        <table id="grants-table" className="table numbers" cellspacing="0">
+        <table id="grants-table" className="table numbers" cellSpacing="0">
           <thead>
             <tr>
               <th colspan="2">Grants</th>
@@ -222,7 +222,7 @@ const Formula = () => {
           </tbody>
         </table>
       </aside>
-      <table id="va-education-benefit-table" className="table numbers" cellspacing="0">
+      <table id="va-education-benefit-table" className="table numbers" cellSpacing="0">
         <thead>
           <tr>
             <th colspan="2">VA Education Benefits</th>
@@ -241,7 +241,7 @@ const Formula = () => {
         </tbody>
       </table>
                
-      <table id="net-price-table" className="table numbers accent" cellspacing="0">
+      <table id="net-price-table" className="table numbers accent" cellSpacing="0">
         <thead>
           <tr>
             <th colspan="2">College Costs You Will Be Required to Pay</th>
@@ -264,7 +264,7 @@ const Formula = () => {
       <p>You must repay loans, plus interest and fees.</p>
       <div className="content numbers flex gap-5">
          <div className='flex-col '>
-              <table id="loan-options-table" className="table numbers" cellspacing="0">
+              <table id="loan-options-table" className="table numbers" cellSpacing="0">
           <thead>
             <tr>
               <th colspan="3">Loan Options<sup>*</sup></th>
@@ -304,7 +304,7 @@ const Formula = () => {
         <h3 className='w-auto'><sup>*</sup> For federal student loans, origination fees are deducted from loan proceeds.</h3>
         </div>
          <div className=''>
-              <table id="other-options-table" className="table numbers " cellspacing="0">
+              <table id="other-options-table" className="table numbers " cellSpacing="0">
           <thead>
             <tr>
               <th colspan="2">Other Options</th>
@@ -337,7 +337,7 @@ const Formula = () => {
 
   
       <section className="content numbers float-right w-[423px]">
-        <table id="work-options-table" className="table numbers" cellspacing="0">
+        <table id="work-options-table" className="table numbers" cellSpacing="0">
           <thead>
             <tr>
               <th colspan="2">Work Options</th>
@@ -411,7 +411,7 @@ const Formula = () => {
 
       <div className="clearfix"></div>
 
-      <table id="glossary" cellspacing="0">
+      <table id="glossary" cellSpacing="0">
         <thead>
           <tr>
             <th>Glossary</th>
