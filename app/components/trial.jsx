@@ -282,8 +282,8 @@ const Formula = () => {
               </td>
             </tr>
             <tr>
-              <td colSpan="2"><span className="line-text">Federal Direct Unsubsidized Loan<span className="inline-note">
-                (<span id="loan-options-federal-direct-unsubsidized-rate" className="percent">x.xx%</span> interest rate)
+              <td colSpan="2"><span className="line-text">TFC Private Loan<span className="inline-note">
+                (<span id="loan-options-federal-direct-unsubsidized-rate" className="percent">12.99%</span> interest rate)
                 (<span id="loan-options-federal-direct-unsubsidized-loan-origination_fee" className="interest">x.xx%</span> origination fee)</span>
               </span></td>
               <td>
