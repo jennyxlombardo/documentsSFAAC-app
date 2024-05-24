@@ -18,7 +18,8 @@ const config: Config = {
         'dBlue': '#0f283d',
         // 'beige': '#eddab3',
         // 'grey': '#645F5B',
-        // 'black': '#000000',
+        'black': '#000000',
+       "gray" : '#cccccc'
         // 'purple' : '#4e325b'
       },
     },
