@@ -20,7 +20,7 @@ const Formula = () => {
           <div className="school-heading">
             <h1 id="school-name">University of the United States (UUS)</h1>
             <h2>Undergraduate College Financing Plan</h2>
-            <h3 id="student-name">Student Name, Identifier</h3>
+            <input id="" className="rounded text-black" type="text" placeholder='Student Name, Identifier'></input>
           </div>
         </header>
       </div>
