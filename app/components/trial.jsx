@@ -4,57 +4,7 @@ import './styles.css'
 import React, { useState, useEffect, useRef } from 'react';
 
 const Formula = () => {
-    const onButtonClick = () => {
-        const pdfUrl = "Sample.pdf";
-        const link = document.createElement("a");
-        link.href = pdfUrl;
-        link.download = "document.pdf"; // specify the filename
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
-
-    const textareaRef = useRef(null);
-
-    // useEffect(() => {
-    //   const downloadReport = () => {
-    //     const output = `
-    //             <college_financing_plan>
-    //                 <total_cost_of_attendance>
-    //                     <tuition_and_fees>$${
-    //                       document.getElementById("costs-tuition-and-fees")
-    //                         .innerHTML
-    //                     }</tuition_and_fees>
-    //                     <!-- Other fields -->
-    //                 </total_cost_of_attendance>
-    //                 <!-- Other sections -->
-    //             </college_financing_plan>
-    //         `;
-    //     // Create a Blob from the XML string
-    //     const blob = new Blob([output], { type: "text/xml" });
-    //     const url = URL.createObjectURL(blob);
-
-    //     // Create a link element to trigger the download
-    //     const link = document.createElement("a");
-    //     link.href = url;
-    //     link.download = "financing_plan.xml";
-    //     link.click();
-
-    //     // Release the object URL
-    //     URL.revokeObjectURL(url);
-    //   };
-    //   document
-    //     .getElementById("download-btn")
-    //     .addEventListener("click", downloadReport);
-
-    //   // Cleanup event listener when component unmounts
-    //   return () => {
-    //     document
-    //       .getElementById("download-btn")
-    //       .removeEventListener("click", downloadReport);
-    //   };
-    // }, []);
-
+ 
   return (
     <div id="sheet" className="container">
       <div className="panel main-header-panel">
@@ -64,7 +14,7 @@ const Formula = () => {
              <input id="totalGrants" className='pl-2 mb-2 rounded-lg text-black' placeholder='MM/DD/YYYY' type="date"  />
                 
             <div className="xml-download">
-              <button id="download-btn" type="button" title="Download" onClick={onButtonClick}>Download</button>
+              <button id="download-btn" type="button" title="Download" >Download</button>
             </div>        
           </div>
           <div className="school-heading">
