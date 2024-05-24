@@ -16,44 +16,44 @@ const Formula = () => {
 
     const textareaRef = useRef(null);
 
-    useEffect(() => {
-      const downloadReport = () => {
-        const output = `
-                <college_financing_plan>
-                    <total_cost_of_attendance>
-                        <tuition_and_fees>$${
-                          document.getElementById("costs-tuition-and-fees")
-                            .innerHTML
-                        }</tuition_and_fees>
-                        <!-- Other fields -->
-                    </total_cost_of_attendance>
-                    <!-- Other sections -->
-                </college_financing_plan>
-            `;
-        // Create a Blob from the XML string
-        const blob = new Blob([output], { type: "text/xml" });
-        const url = URL.createObjectURL(blob);
+    // useEffect(() => {
+    //   const downloadReport = () => {
+    //     const output = `
+    //             <college_financing_plan>
+    //                 <total_cost_of_attendance>
+    //                     <tuition_and_fees>$${
+    //                       document.getElementById("costs-tuition-and-fees")
+    //                         .innerHTML
+    //                     }</tuition_and_fees>
+    //                     <!-- Other fields -->
+    //                 </total_cost_of_attendance>
+    //                 <!-- Other sections -->
+    //             </college_financing_plan>
+    //         `;
+    //     // Create a Blob from the XML string
+    //     const blob = new Blob([output], { type: "text/xml" });
+    //     const url = URL.createObjectURL(blob);
 
-        // Create a link element to trigger the download
-        const link = document.createElement("a");
-        link.href = url;
-        link.download = "financing_plan.xml";
-        link.click();
+    //     // Create a link element to trigger the download
+    //     const link = document.createElement("a");
+    //     link.href = url;
+    //     link.download = "financing_plan.xml";
+    //     link.click();
 
-        // Release the object URL
-        URL.revokeObjectURL(url);
-      };
-      document
-        .getElementById("download-btn")
-        .addEventListener("click", downloadReport);
+    //     // Release the object URL
+    //     URL.revokeObjectURL(url);
+    //   };
+    //   document
+    //     .getElementById("download-btn")
+    //     .addEventListener("click", downloadReport);
 
-      // Cleanup event listener when component unmounts
-      return () => {
-        document
-          .getElementById("download-btn")
-          .removeEventListener("click", downloadReport);
-      };
-    }, []);
+    //   // Cleanup event listener when component unmounts
+    //   return () => {
+    //     document
+    //       .getElementById("download-btn")
+    //       .removeEventListener("click", downloadReport);
+    //   };
+    // }, []);
 
   return (
     <div id="sheet" className="container">
